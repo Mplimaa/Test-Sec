@@ -30,12 +30,16 @@ Mede o tempo de resposta de um site realizando múltiplas requisições HTTP.
 
 Classe Pessoa com encapsulamento de dados e validação de CPF e endereço. -> pessoa.py
 
+
+
 Métodos principais:
 
 falar(), andar(), get_cpf(), set_cpf(), get_endereco(), set_endereco()
 
 test_pessoa.py e test_pessoa_formato_cpf.py
 Testes unitários simples para validar o comportamento da classe Pessoa.
+
+
 
 
  Testes:
@@ -46,6 +50,9 @@ Getter e setter do atributo cpf
 
 seguranca.py
 Exemplo de código propositalmente vulnerável usado para análise com o Bandit.
+
+
+
 
 
  Análise de segurança:
@@ -64,6 +71,8 @@ pytest test_pessoa.py
 pytest test_pessoa_formato_cpf.py
 
 
+
+
  Possíveis Melhorias
 
 Adicionar logs aos scripts.
@@ -73,6 +82,8 @@ Implementar outros testes de desempenho automatizados.
 Refatorar seguranca.py para boas práticas seguras.
 
 Substituir eval() por parsing seguro com ast.literal_eval.
+
+
 
  Aviso de Segurança
 O script seguranca.py contém código propositalmente inseguro com o uso de eval() — não use em produção.

@@ -32,7 +32,7 @@ Classe Pessoa com encapsulamento de dados e validação de CPF e endereço. -> p
 
 
 
-Métodos principais:
+## Métodos principais:
 
 falar(), andar(), get_cpf(), set_cpf(), get_endereco(), set_endereco()
 
@@ -42,7 +42,7 @@ Testes unitários simples para validar o comportamento da classe Pessoa.
 
 
 
- Testes:
+ ## Testes:
 
 Formato correto e incorreto de CPF
 
@@ -55,7 +55,7 @@ Exemplo de código propositalmente vulnerável usado para análise com o Bandit.
 
 
 
- Análise de segurança:
+ ## Análise de segurança:
 
 instalar framework bandit
 pip install bandit
@@ -64,7 +64,7 @@ usabilidade.py
 Detecta o sistema operacional do usuário e imprime uma mensagem específica.
 
 
-Como Executar os Testes?
+## Como Executar os Testes?
 Você pode usar pytest para executar os arquivos de teste:
 Instalar o framework pytest -> pip install pytest , após executar os arquivos.
 pytest test_pessoa.py
@@ -73,7 +73,7 @@ pytest test_pessoa_formato_cpf.py
 
 
 
- Possíveis Melhorias
+ ## Possíveis Melhorias
 
 Adicionar logs aos scripts.
 
@@ -85,7 +85,7 @@ Substituir eval() por parsing seguro com ast.literal_eval.
 
 
 
- Aviso de Segurança
+ ## Aviso de Segurança
 O script seguranca.py contém código propositalmente inseguro com o uso de eval() — não use em produção.
 
 
